@@ -52,7 +52,7 @@
 
 }
     }
-    #nav li {
+    #subnav li {
     display:inline;
     margin:0;
     padding:0;
@@ -61,6 +61,52 @@
 	font-size: 1.5em;
 	color: #00;
     }
+	
+	
+	 #subnav {
+	position: relative;
+	width:1000px;
+	height: 10px;
+	margin-left: 100px;
+	margin-top: 10px;
+	z-index:10;
+	padding:10px;
+	
+	}
+	#subnav h1{
+	margin:0;
+	font-family: arial;
+	display: block;
+	font-size: 5em;
+	color: #ff;
+	background-color: #F8E6E0;
+	padding-bottom: 0;
+	padding-top: 0;
+    }
+	#subnav ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    }
+    #subnav li {
+    display:inline;
+    margin:0;
+    padding:3px;
+    }
+
+}
+    }
+    #subnav li {
+    display:inline;
+    margin:0;
+    padding:0;
+	font-family: arial;
+	display: block;
+	font-size: 1.5em;
+	color: #00;
+    }
+	
+	
 	#sidebar2 {
 	float:right;
     width:300px;
